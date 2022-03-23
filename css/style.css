@@ -2,14 +2,17 @@
     position: relative;
 }
 .center {
+    display: block;
     position: absolute;
     top: 50%;
     width: 100%;
-    align-content: center;
 }
 #logga{
     height: 10vw;
     width: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 #bb-banner{
     width: 100%;
