@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    width: auto;
+}
+#bb-banner{
+    width: 100%;
+    height: auto;
+}
