@@ -18,3 +18,24 @@
     width: 100%;
     height: auto;
 }
+ul.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li.navbar{
+    float: left;
+}
+li.navbar a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+li.navbar a:hover {
+    background-color: white;
+    color: black;
+}
