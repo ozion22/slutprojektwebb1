@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleri</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navbar">
+            <li class="navbar"><a href="galleri.html">Galleri</a></li>
+            <li class="navbar"><a href="quan.html">Quan Media</a></li>
+            <li class="navbar"><a href="kontakt.html">Kontakt</a></li>
+            <li class="navbar"><a href="om.html">Om</a></li>
+        </ul>
+    </div>
+    <div class="div-content">
+        <img class="mySlides" src="../testbilder/1200px-Facebook_Logo_(2019).png" alt="foto på malaga" style="width:100%;" >
+        <img class="mySlides" src="../testbilder/88.jpg" alt="foto på soller" style="width:100%;" >
+        <img class="mySlides" src="../img/stockholm1.jpg" alt="foto på stockholm" style="width:100%;" >
+        <img class="mySlides" src="../img/Stockholm2.jpg" alt="foto på stockholm" style="width:100%;">
+        <img class="mySlides" src="../img/stockholm3.jpg" alt="foto på stockholm" style="width:100%;">
+        <button class="slider-button display-left" onclick="changeImage(-1)">&#129076;</button>
+        <button class="slider-button display-right" onclick="changeImage(1)">&#129078;</button>
+    </div>
+    <img id="myImg" src="../testbilder/1200px-Facebook_Logo_(2019).png" alt="" style="width:100%; max-width:300px;">
+    <div id = "myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+    
+    
+    <script src="../js/domjs.js"></script>
+
+</body>
