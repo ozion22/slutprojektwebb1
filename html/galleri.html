@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Galleri</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="navbar">
-        <ul class="navbar">
-            <li class="navbar"><a href="index.html">Hem</a></li>
-            <li class="navbar"><a href="galleri.html">Galleri</a></li>
-            <li class="navbar"><a href="quan.html">Quan Media</a></li>
-            <li class="navbar"><a href="kontakt.html">Kontakt</a></li>
-            <li class="navbar"><a href="om.html">Om</a></li>
-        </ul>
+    <div class="navbar" id="nvbar">
+        <a href="index.html">Hem</a>
+        <a href="galleri.html" class="active">Galleri</a>
+        <a href="quan.html">Quan Media</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="om.html">Om</a>
+        <a href="javacript:void(0)" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
     </div>
     <div class="div-content">
         <img class="mySlides" src="../testbilder/1200px-Facebook_Logo_(2019).png" alt="foto på malaga" style="width:100%;" >
@@ -31,8 +33,5 @@
         <img class="modal-content" id="img01">
         <div id="caption"></div>
     </div>
-    
-    
     <script src="../js/domjs.js"></script>
-
 </body>
