@@ -2,6 +2,17 @@ body{
   margin: 0;
   background-color: #787878;
 }
+.titlebar {
+  display: flex;
+  justify-content: space-around;
+}
+.main-content {
+  text-align: center;
+  margin: 0 20vw;
+}
+#qlog {
+  align-self: flex-end;
+}
 .main{
   text-align: center;
   margin-top: 5px;
