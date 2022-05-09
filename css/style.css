@@ -126,7 +126,6 @@ body {
 @media screen and (min-width: 600px) {
   .div-content {
     max-width: 50%;
-    max-height: 100%;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -138,7 +137,6 @@ body {
     max-height: 75%;
     max-width: 100%;
     min-width: 75%;
-    width: auto;
     height: auto;
   }
 
