@@ -134,10 +134,10 @@ body {
   }
 
   .mySlides {
-    max-height: 75%;
     max-width: 100%;
     min-width: 75%;
     height: auto;
+    margin: auto 0 0 auto;
   }
 
 }
