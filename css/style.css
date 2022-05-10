@@ -2,6 +2,10 @@ body {
   margin: 0;
   background-color: #787878;
 }
+.main  {
+  text-align: justify;
+  color: black;
+}
 footer {
   background-color: red;
   width: 100%;
@@ -150,6 +154,9 @@ footer {
     min-width: 75%;
     width: auto;
     height: auto;
+  }
+  .main {
+    text-align: center;
   }
 
 }
