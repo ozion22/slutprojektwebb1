@@ -41,10 +41,10 @@ footer {
 }
 
 .center {
-  display: block;
+  display: flex;
   position: absolute;
-  margin-top: auto;
-  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
