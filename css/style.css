@@ -1,6 +1,7 @@
 body {
-  margin: 0;
+  margin: auto;
   background-color: #787878;
+  width: 100%;
 }
 .main  {
   text-align: justify;
