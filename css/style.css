@@ -43,7 +43,8 @@ footer {
 .center {
   display: block;
   position: absolute;
-  top: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 100%;
 }
 
