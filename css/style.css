@@ -9,10 +9,12 @@ body {
   min-height: 100%;
   min-width: 100%;
 }
+
 .main {
   text-align: justify;
   color: black;
 }
+
 footer {
   background-color: red;
   width: 100%;
@@ -20,6 +22,17 @@ footer {
   text-align: center;
   padding: 5px 0px;
 }
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 .titlebar {
   display: flex;
   justify-content: space-around;
@@ -100,6 +113,12 @@ footer {
   display: none;
 }
 
+.mySlides {
+  width: 100%;
+  max-height: 75%;
+  height: auto;
+}
+
 @media screen and (max-width: 600px) {
   .navbar a:not(:first-child) {
     display: none;
@@ -109,15 +128,7 @@ footer {
     float: right;
     display: block;
   }
-}
 
-.mySlides {
-  width: 100%;
-  max-height: 75%;
-  height: auto;
-}
-
-@media screen and (max-width: 600px) {
   .div-content {
     margin-left: auto;
     margin-right: auto;
@@ -141,14 +152,10 @@ footer {
     text-align: left;
   }
 }
+
 @media screen and (min-width: 600px) {
   .div-content {
     max-width: 75%;
-  }
-}
-@media screen and (min-width: 600px) {
-  .div-content {
-    max-width: 50%;
     max-height: 100%;
     width: auto;
     margin-left: auto;
@@ -164,6 +171,7 @@ footer {
     width: auto;
     height: auto;
   }
+
   .main {
     text-align: center;
   }
@@ -230,10 +238,8 @@ footer {
   background-color: rgb(0, 0, 0);
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/ opacity */
 }
 
-/* Modal Content (Image) */
 .modal-content {
   margin: auto;
   display: block;
@@ -252,7 +258,6 @@ footer {
   height: 150px;
 }
 
-/* Add Animation - Zoom in the Modal */
 .modal-content,
 #caption {
   animation-name: zoom;
@@ -269,7 +274,6 @@ footer {
   }
 }
 
-/* The Close Button */
 .close {
   position: absolute;
   top: 15px;
@@ -287,7 +291,6 @@ footer {
   cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
