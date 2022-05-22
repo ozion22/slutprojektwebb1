@@ -59,7 +59,7 @@ footer a:hover {
 .container {
   position: relative;
   display: flex;
-  background-image: url("../img/grenada.jpg");
+  background-image: url("../img/grenada.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
