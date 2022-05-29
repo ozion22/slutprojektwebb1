@@ -165,6 +165,9 @@ footer a:hover {
   .main {
     text-align: center;
   }
+  .mySlides {
+    height: 50vh;
+  }
 }
 
 .slider-button {
