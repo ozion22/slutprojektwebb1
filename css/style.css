@@ -288,4 +288,11 @@ footer a:hover {
   .modal-content {
     width: 100%;
   }
+  .mySlides {
+    width: 100vw;
+  }
+  #myImg {
+    width: 50vw;
+    height: 20vh;
+  }
 }
