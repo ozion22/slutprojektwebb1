@@ -163,15 +163,6 @@ footer a:hover {
     position: relative;
     height: fit-content;
   }
-
-  .mySlides {
-    max-height: 75%;
-    max-width: 100%;
-    min-width: 75%;
-    width: 100%;
-    height: auto;
-  }
-
   .main {
     text-align: center;
   }
